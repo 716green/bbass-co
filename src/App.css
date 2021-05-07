@@ -7,13 +7,18 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.deviconLogoStyle {
+  width: 10%;
 }
 
-.App-header {
+.avatar {
+  width: 256px;
+  height: 256px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.app-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,8 +29,43 @@
   color: white;
 }
 
-.App-link {
+.app-body {
+  background-color: #282c34;
+  min-height: 100vh;
+  width: 100%;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.image {
+  width: 100%;
+}
+
+.app-link {
   color: #61dafb;
+}
+.btn {
+  font-size: 1.2rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 3px 5px #27272c;
+  background-color: #8260dc;
+  color: #fff;
+  border: 0;
+  height: 2.5rem;
+  margin-top: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.stitle {
+  border-top: white dashed 2px;
+  color: #fff;
+  padding-top: 15px;
+  margin-top: 15px;
 }
 
 @keyframes App-logo-spin {
