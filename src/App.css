@@ -3,8 +3,22 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.react {
+  display: block;
+  margin: auto;
 }
 
 .deviconLogoStyle {
@@ -12,8 +26,8 @@
 }
 
 .avatar {
-  width: 256px;
-  height: 256px;
+  width: 128px;
+  height: 128px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -48,31 +62,10 @@
 .app-link {
   color: #61dafb;
 }
-.btn {
-  font-size: 1.2rem;
-  border-radius: 0.2rem;
-  box-shadow: 0 3px 5px #27272c;
-  background-color: #8260dc;
-  color: #fff;
-  border: 0;
-  height: 2.5rem;
-  margin-top: 20px;
-  font-weight: 600;
-  cursor: pointer;
-}
 
 .stitle {
   border-top: white dashed 2px;
   color: #fff;
   padding-top: 15px;
   margin-top: 15px;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

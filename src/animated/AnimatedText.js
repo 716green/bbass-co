@@ -1,73 +1,61 @@
 import React from 'react';
 import Typist from 'react-typist';
+import './AnimatedText.css';
 
 const btnContainer = {
-  width: '100%',
-  display: 'flex',
-  margin: 'auto',
+  width: '500px',
+};
+
+const nonTechContainer = (side) => {
+  return {
+    textAlign: side,
+    flexGrow: 1,
+  };
 };
 
 export const AnimatedText = (props) => {
   return (
     <div>
-      <Typist
-        cursor={{
-          show: true,
-          blink: false,
-          element: '',
-          hideWhenDone: true,
-          hideWhenDoneDelay: 0,
-        }}>
-        <span>Front End</span>
-        <Typist.Backspace count={9} delay={200} />
-        <span>Back End</span>
-        <Typist.Backspace count={8} delay={200} />
-        <span>Database</span>
-        <Typist.Backspace count={8} delay={200} />
-        <span>DevOps</span>
-        <Typist.Backspace count={6} delay={200} />
-        <span>Full Stack Developer</span>
-        <Typist.Delay ms={750} />
-        <br />
-        <span>Specializing in MySQL</span>
-        <Typist.Backspace count={5} delay={200} />
-        <span>Express</span>
-        <Typist.Backspace count={7} delay={200} />
-        <span>Vue</span>
-        <Typist.Backspace count={3} delay={200} />
-        <span>Node.js</span>
-        <Typist.Backspace count={7} delay={200} />
-        <span>Firebase/Firestore</span>
-        <Typist.Backspace count={18} delay={200} />
-        <span>the MEVN+ Stack</span>
-        <Typist.Delay ms={750} />
-        <br />
-        <span>Proficient in JavaScript</span>
-        <Typist.Backspace count={10} delay={200} />
-        <span>Typescript</span>
-        <Typist.Backspace count={10} delay={200} />
-        <span>HTML5/CSS3</span>
-        <Typist.Backspace count={10} delay={200} />
-        <span>Modern Web Technologies</span>
-        <Typist.Delay ms={750} />
-        <br />
-        <span>Interested in Rust</span>
-        <Typist.Backspace count={4} delay={200} />
-        <span>Golang</span>
-        <Typist.Backspace count={6} delay={200} />
-        <span>C++</span>
-        <Typist.Backspace count={3} delay={200} />
-        <span>Docker</span>
-        <Typist.Backspace count={6} delay={200} />
-        <span>Flutter</span>
-        <Typist.Backspace count={7} delay={200} />
-        <span>a bit of everything</span>
-        <br />
-
-        <div className="buttons" style={btnContainer}>
-          {props.children}
-        </div>
-      </Typist>
+      <div className="columns">
+        {/* <div className="text"> */}
+        <span style={nonTechContainer('right')} className="column">
+          I'm a
+        </span>
+        <Typist
+          cursor={{
+            show: false,
+            blink: false,
+            element: '',
+            hideWhenDone: true,
+            hideWhenDoneDelay: 0,
+          }}>
+          <span className="column">
+            <Typist.Backspace count={0} delay={600} />
+            <strong className="technology-name">Vue.js</strong>
+            <Typist.Backspace count={6} delay={300} />
+            <strong className="technology-name">React.js</strong>
+            <Typist.Backspace count={8} delay={300} />
+            <strong className="technology-name">Node.js</strong>
+            <Typist.Backspace count={7} delay={300} />
+            <strong className="technology-name">JavaScript</strong>
+            <Typist.Backspace count={10} delay={300} />
+            <strong className="technology-name">Typescript</strong>
+            <Typist.Backspace count={10} delay={300} />
+            <strong className="technology-name">MySQL</strong>
+            <Typist.Backspace count={6} delay={300} />
+            <strong className="technology-name">Firebase</strong>
+            <Typist.Backspace count={8} delay={300} />
+            <strong className="technology-name">Full Stack</strong>
+          </span>
+        </Typist>
+        <span style={nonTechContainer('left')} className="column">
+          developer
+        </span>
+        {/* </div> */}
+      </div>
+      <div className="buttons" style={btnContainer}>
+        {props.children}
+      </div>
     </div>
   );
 };

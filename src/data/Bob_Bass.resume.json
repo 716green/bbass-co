@@ -1,0 +1,408 @@
+{
+  "basics": {
+    "name": "Bob Bass",
+    "label": "Launching DebtCollect.io - The world's first debt collection automation platform. ",
+    "picture": "",
+    "email": "bob@bbass.co",
+    "phone": "",
+    "website": "",
+    "summary": "I have over a decade in the ARM industry with a strong focus on software development and relational database management. I have used the AR industry as a vehicle to learn and implement software solutions, both proprietary and cross-industry to find unique solutions to outdated problems within alternative finance. \n\nI am currently expanding my skill set into automation while constantly staying on the cutting edge of the .NET Framework and MySQL as well as more recently Zapier and Airtable while implimenting custom CRM and inventory management solutions. ",
+    "location": {
+      "countryCode": "US",
+      "address": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "bbass9490",
+        "url": "https://www.linkedin.com/in/bbass9490/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "DebtOS Inc. d/b/a DebtCollect.io",
+      "endDate": "",
+      "highlights": [],
+      "position": "Lead Software Engineer",
+      "startDate": "2020-02-28",
+      "summary": "Portfolio Inc. is a suite of automation software aimed at the Accounts Receivable Management industry including DebtCollect.io, DebtPortfol.io, and Debt - Out of Office.We're helping lenders, debt buyers, and collection agencies to increase liquidation and compliance to increase revenue and compliance.",
+      "website": ""
+    },
+    {
+      "company": "Narro LLC",
+      "endDate": "",
+      "highlights": [],
+      "position": "President, Full Stack Developer",
+      "startDate": "2020-01-31",
+      "summary": "Developing small business automation tools and online utilities aimed at financial institutions.",
+      "website": "https://www.linkedin.com/company/narro-llc/"
+    },
+    {
+      "company": "CyberBytes Inc.",
+      "endDate": "2020-02-28",
+      "highlights": [],
+      "position": "Integration Specialist",
+      "startDate": "2019-09-30",
+      "summary": "Business process automation for the SMB space and SaaS partnership/integration",
+      "website": "https://www.linkedin.com/company/cyberbytesinc/"
+    },
+    {
+      "company": "ACG Processing",
+      "endDate": "2019-12-31",
+      "highlights": [],
+      "position": "Chief Technology Officer",
+      "startDate": "2016-01-31",
+      "summary": "ARM Software Solution Implementations",
+      "website": ""
+    },
+    {
+      "company": "Ashland Development, LLC",
+      "endDate": "2019-09-30",
+      "highlights": [],
+      "position": "President",
+      "startDate": "2014-04-30",
+      "website": ""
+    },
+    {
+      "company": "Ashland Consulting",
+      "endDate": "2016-01-31",
+      "highlights": [],
+      "position": "Founder and CEO",
+      "startDate": "2011-02-28",
+      "website": ""
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Michigan State University",
+      "area": "Web/Multimedia Management and Webmaster",
+      "studyType": "Web Development Capstone Program",
+      "startDate": "2015-12-31",
+      "endDate": "2016-12-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "University of Michigan",
+      "area": "Computer Games and Programming Skills",
+      "studyType": "Certificate",
+      "startDate": "2016-12-31",
+      "endDate": "2017-12-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Erie Community College",
+      "area": "Computer Science",
+      "studyType": "Certificate (Web Design)",
+      "startDate": "2009-12-31",
+      "endDate": "2010-12-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Niagara County Community College",
+      "area": "Audio Engineering",
+      "studyType": "Certificates (Pro Tools I, Pro Tools II)",
+      "startDate": "2010-12-31",
+      "endDate": "2012-12-31",
+      "gpa": "Pro Tools Audio Engineering and Multimedia/Web Design",
+      "courses": []
+    },
+    {
+      "institution": "Udemy Alumni",
+      "area": "Computer Programming, Specific Applications",
+      "studyType": "Certificate",
+      "startDate": "2021-12-31",
+      "endDate": "2021-12-31",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Zero To Mastery Academy",
+      "area": "Computer Programming, Specific Applications",
+      "studyType": "Deno Certificate",
+      "startDate": "2020-12-31",
+      "endDate": "2021-12-31",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [
+    {
+      "name": "How to become a debt buyer - A Beginner's Guide\n\n",
+      "publisher": "Bob Bass (Self-Published on Steemit)",
+      "releaseDate": "2016-01-01",
+      "website": "https://steemit.com/introduceyourself/@b716green/how-to-become-a-debt-buyer-a-beginner-s-guide",
+      "summary": "An article that I wrote for the DBA Summit (before it was renamed the RMA) several years back. "
+    }
+  ],
+  "skills": [
+    {
+      "name": "Vue.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MySQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Full-Stack Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Start-ups",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C#",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "GitHub",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Workbench",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "NoSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Airtable",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Integromat",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Cloud Platform (GCP)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Accounts Receivable (AR)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "VS Code",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Zapier",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Algorithms",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Data Modeling",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Excel",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Microsoft Visual Studio Code",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Sheets",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Computer Science",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": ".NET",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Linux",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Automation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Google Suite",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Web Applications",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Visual Studio",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Cloud Firestore",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Vuetify",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Debt Collection",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Software Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "MongoDB",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Executive Management",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Version Control",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Ubuntu",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Database Administration",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Firebase",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Database Management System (DBMS)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Corporate Development",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Process Automation",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Git",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Database Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Relational Databases",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "en",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Ashley Campanella",
+      "reference": "It is great to be a part of Bob's professional network. I've worked with him for about 4 years, he is very knowledgeable in all things technology related.  It's a pleasure and honor to recommend you to others as a dedicated professional."
+    }
+  ]
+}
