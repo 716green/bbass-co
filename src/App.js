@@ -128,6 +128,7 @@ function App() {
           <section className="react">
             <h3>This app is in progress and incomplete</h3>
             <h3>Please check back at a later time</h3>
+            <hr />
             <h1>This app is built with React</h1>
             <img src={reactLogo} alt="react logo" className="App-logo" />
             <div>
