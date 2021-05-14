@@ -2,7 +2,8 @@
   /* Colors */
   --primaryColor: #282c34;
   --secondaryColor: #95a5a6;
-  --accentColor: #fe24cf;
+  --lightAccentColor: #fe24cf;
+  --accentColor: #3a243b;
   --linkColor: #2ecc71;
   --mutedColor: #f4f6f6;
 
@@ -67,14 +68,15 @@ a {
 
 a:focus,
 a:hover {
-  color: var(--accentColor);
+  color: var(--lightAccentColor);
 }
 
 h1,
 h2,
 h3,
 h5 {
-  font-weight: normal;
+  /* font-weight: normal; */
+  font-weight: 500;
 }
 
 h1,
@@ -158,6 +160,12 @@ blockquote > * + * {
   margin-top: 0.6em;
 }
 
+article {
+  padding-bottom: 10px;
+  /* margin-bottom: 10px; */
+  border-bottom: solid slategray 2px;
+}
+
 .stack {
   display: grid;
   gap: 1.5em;
@@ -208,6 +216,14 @@ blockquote > * + * {
   padding: 0.2em 0.6em;
 }
 
+.small-list {
+  text-align: left;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
 @media print, (min-width: 48em) {
   h3 {
     text-align: right;
@@ -233,6 +249,12 @@ blockquote > * + * {
   text-align: left;
   margin-top: 20px;
   font-size: 20px;
+}
+
+.summary-small {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 14px;
 }
 
 .soft-skills {

@@ -1,5 +1,6 @@
 import React from 'react';
-import { icons } from '../data/icons';
+// import { icons } from '../data/icons';
+import { SmallSpacer } from '../shared/UI/Spacer';
 import pioneer from '../data/pioneer.png';
 import { Button } from 'react-bulma-components';
 
@@ -22,7 +23,7 @@ export const Portfolio = (props) => {
 
 //     <title>Bob Bass</title>
 //     <meta name="description" content="I have over a decade in the ARM industry with a strong focus on software development and relational database management. I have used the AR industry as a vehicle to learn and implement software solutions, both proprietary and cross-industry to find unique solutions to outdated problems within alternative finance.
-// I am currently expanding my skill set into automation while constantly staying on the cutting edge of the .NET Framework and MySQL as well as more recently Zapier and Airtable while implimenting custom CRM and inventory management solutions.">
+// I am currently expanding my skill set into automation while constantly staying on the cutting edge of the .NET Framework and MySQL as well as more recently Zapier and Airtable while implementing custom CRM and inventory management solutions.">
 
 export const Resume = (props) => {
   return (
@@ -66,19 +67,33 @@ export const Resume = (props) => {
         <section id="about">
           <h3>About</h3>
           <article className="article">
-            <p>
-              I have over a decade in the ARM industry with a strong focus on
-              software development and relational database management. I have
-              used the AR industry as a vehicle to learn and implement software
-              solutions, both proprietary and cross-industry to find unique
-              solutions to outdated problems within alternative finance.
+            <p className="summary">
+              My name is Bob. I have over a decade in the consumer credit
+              industry with a strong focus on software development and
+              relational database management. I build software to create modern
+              solutions, historically for antiquated industries such as
+              alternative finance, and consumer credit.
             </p>
-            <br />
-            <p>
-              I am currently expanding my skill set into automation while
-              constantly staying on the cutting edge of the .NET Framework and
-              MySQL as well as more recently Zapier and Airtable while
-              implimenting custom CRM and inventory management solutions.
+
+            <p className="summary-small">
+              I am a full-stack software engineer specializing in Node.js,
+              front-end JavaScript frameworks, databases (relational, and
+              document), modern web development technologies, REST API
+              development, and basic DevOps processes. I have founded,
+              bootstrapped, established, and sold 2 separate companies between
+              2013 and 2019. During that time, I have personally employed
+              hundreds of people.
+            </p>
+
+            <p className="summary-small">
+              Although I am a seasoned entrepreneur and business administrator,
+              I'm looking for a technical, non-management, opportunity as a
+              software developer. Throughout my entire career, I have had few
+              opportunities to work on software projects with a team. My goal is
+              to gain more experience working with a team to gain a better
+              understanding of the team dynamic in the software space. I am very
+              passionate about, and enjoy learning programming languages,
+              frameworks, libraries, and development technologies.
             </p>
           </article>
         </section>
@@ -113,11 +128,50 @@ export const Resume = (props) => {
               </header>
               <p className="summary">
                 DebtOS Inc. is a suite of automation software aimed at the
-                Accounts Receivable Management industry including
-                DebtCollect.io, DebtPortfol.io, and Debt - Out of Office.We're
-                helping lenders, debt buyers, and collection agencies to
-                increase liquidation and compliance to increase revenue and
-                compliance.
+                Accounts Receivable Management industry. We're helping lenders,
+                debt buyers, and collection agencies to increase liquidation,
+                compliance, and revenue with the use of modern web technologies.
+              </p>
+              <p className="summary-small">
+                <strong>Database, Server, and ORM</strong>
+                <br />I built the core software from the ground up starting with
+                a MySQL database that could accommodate new and legacy data. My
+                next task was to build a REST API as a middle-layer for
+                accessing data from an Express server built on Node.js. I
+                prototyped, and integrated a custom ORM tasked with allowing
+                developers to modify existing database tables safely while
+                logging, backing up, and updating all of the client databases
+                simultaneously without downtime.
+              </p>
+              <p className="summary-small">
+                <strong>Front End</strong>
+                <br />
+                Once the database, server, API, and ORM were operational, I used
+                Vue.js and Vuetify to craft a material design inspired
+                client-side interface, designed to be familiar to industry
+                veterans, while steering them into modern best-practices. I then
+                created connections to a number of services such as Stripe,
+                SendGrid, Twilio, Firebase, Firestore, and numerous high risk
+                payment processors and gateways.
+              </p>
+              <p className="summary-small">
+                <strong>Team and Refactor</strong>
+                <br />
+                After winning the Pioneer startup competition with this project,
+                I hired another Node.js developer to help build integrations to
+                third party services. In order to assure productivity for a new
+                team member who was unfamiliar with the structure, I refactored
+                the back-end codebase from JavaScript to Typescript. This
+                allowed for exponentially better intellisense, documentation,
+                code navigation, and debugging.
+              </p>
+              <p className="summary-small">
+                <strong>DevOps</strong>
+                <br />
+                The app was originally hosted across Firebase, Digital Ocean and
+                Router Hosting. I was tasked with migrating to Google Cloud to
+                consolidate the development process, and then to containerize
+                and migrate to Zeet.co for a lower cost to operate.
               </p>
             </article>
             <article>
@@ -136,6 +190,25 @@ export const Resume = (props) => {
                 Developing small business automation tools and online utilities
                 aimed at financial institutions.
               </p>
+              <p className="summary">
+                <strong>Consulting Areas: </strong> Vue.js, Node.js, MySQL
+              </p>
+              <ul className="small-list">
+                <li>
+                  Review potential client processes and document potential
+                  optimizations.
+                </li>
+                <li>
+                  Draft proposal for the client, breaking the job into 3
+                  distinct phases.
+                </li>
+                <li>
+                  Leverage a combination of code, no-code solutions, and
+                  integrations with SaaS products to develop an admin dashboard
+                  for companies to use to manage their businesses from one
+                  place.
+                </li>
+              </ul>
             </article>
             <article>
               <header>
@@ -152,8 +225,26 @@ export const Resume = (props) => {
               </header>
               <p className="summary">
                 Business process automation for the SMB space and SaaS
-                partnership/integration
+                partnership/integration.
               </p>
+              <ul className="small-list">
+                <li>
+                  Review and document important client processes, current SaaS
+                  products, use cases for each product, and potential
+                  alternative products.
+                </li>
+                <li>
+                  Draft a visualization of the processes and workflows, as-is,
+                  and again as the optimized version which is being pitched.
+                  Prepare this visualization into a Slite document to review
+                  with the client.
+                </li>
+                <li>
+                  Leverage modern automation technologies to automate the
+                  client's processes and workflows. Make modifications as
+                  requested, or as new information is presented.
+                </li>
+              </ul>
             </article>
             <article>
               <header>
@@ -169,6 +260,22 @@ export const Resume = (props) => {
                 </div>
               </header>
               <p className="summary">ARM Software Solution Implementations</p>
+              <ul className="small-list">
+                <li>
+                  Leveraging solutions using MySQL, the .NET Framework, C#, and
+                  SaaS products to maximize the return on investment for
+                  consumer debt portfolios.
+                </li>
+                <li>
+                  Integrating and modifying legacy desktop software to improve
+                  the productivity of the call center team.
+                </li>
+                <li>
+                  Building proprietary utilities based on PCI compliance,
+                  encryption, and productivity to provide a competitive edge
+                  against competing agencies.
+                </li>
+              </ul>
             </article>
             <article>
               <header>
@@ -183,6 +290,29 @@ export const Resume = (props) => {
                   <strong>President</strong>
                 </div>
               </header>
+              <p className="summary">
+                Owned and operated a debt collection agency
+              </p>
+              <ul className="small-list">
+                <li>
+                  Networking with lenders, debt buyers, debt brokers, and
+                  competing agencies to constantly improve our reach within the
+                  industry and to source valuable charged-off receivables.
+                </li>
+                <li>
+                  Hiring, training, and team building for an office of 8 to 15
+                  call center associates.
+                </li>
+                <li>
+                  Maintaining a profitable business around our average annual
+                  revenue of $780k.
+                </li>
+                <li>
+                  I was responsible for Compliance, HR, Accounting, Management,
+                  Hiring, Training, Team Building, and Business Development were
+                  all as a small-business owner.
+                </li>
+              </ul>
             </article>
             <article>
               <header>
@@ -197,6 +327,29 @@ export const Resume = (props) => {
                   <strong>Founder and CEO</strong>
                 </div>
               </header>
+              <p className="summary">
+                Operate debt collection agency and provide services for other
+                agencies.
+              </p>
+              <ul className="small-list">
+                <li>
+                  Ashland Development was similar AC Processing, but with more
+                  of a focus on providing technical services for other agencies
+                  to supplement the strategic investments.
+                </li>
+                <li>
+                  Building on-site and remote servers for the Accounts
+                  Receivable Management industry.
+                </li>
+                <li>
+                  Consulting, Integration, and Reporting services for debt
+                  related startups.
+                </li>
+                <li>
+                  Database migration (on-site to cloud), and providing ongoing
+                  database administration contracts for cloud-based servers.
+                </li>
+              </ul>
             </article>
           </div>
         </section>
@@ -228,10 +381,12 @@ export const Resume = (props) => {
                   </span>
                 </div>
                 <div className="spaced-list">
-                  <strong>Computer Games and Programming Skills</strong>
+                  <strong>Video Game Development with Unity3d and C#</strong>
                 </div>
               </header>
-              <p className="summary">Certificate</p>
+              <p className="summary">
+                Certificate - Unity Game Development Capstone
+              </p>
             </article>
             <article>
               <header>
@@ -246,7 +401,7 @@ export const Resume = (props) => {
                   <strong>Computer Science</strong>
                 </div>
               </header>
-              <p className="summary">Certificate (Web Design)</p>
+              <p className="summary">Certificate (Multimedia - Web Design)</p>
             </article>
             <article>
               <header>
@@ -321,22 +476,67 @@ export const Resume = (props) => {
                 This article was originally published for the RMA International
                 Summit (formerly known as the DBA International Summit). This
                 was adapted to a digital article and expanded at the request of
-                the readers.
+                the readers. This serves as a lead-funnel to this day.
               </p>
             </article>
           </div>
         </section>
         <section id="skills">
-          <h3>Technologies</h3>
+          {/* <div className="grid-list"> */}
           <div className="grid-list">
-            {icons.map((icon) => {
+            <h3>Technologies</h3>
+            <div>
+              <div className="soft-skills">Node.js</div>
+            </div>
+            <div>
+              <div className="soft-skills">Vue.js</div>
+            </div>
+            <div>
+              <div className="soft-skills">React</div>
+            </div>
+            <div>
+              <div className="soft-skills">MySQL</div>
+            </div>
+            <div>
+              <div className="soft-skills">Firebase</div>
+            </div>
+            <div>
+              <div className="soft-skills">Firestore</div>
+            </div>
+            <div>
+              <div className="soft-skills">JavaScript</div>
+            </div>
+            <div>
+              <div className="soft-skills">Typescript</div>
+            </div>
+            <div>
+              <div className="soft-skills">HTML5</div>
+            </div>
+            <div>
+              <div className="soft-skills">CSS3</div>
+            </div>
+            <div>
+              <div className="soft-skills">GitHub</div>
+            </div>
+            <div>
+              <div className="soft-skills">Linux</div>
+            </div>
+            <div>
+              <div className="soft-skills">Vuetify</div>
+            </div>
+            <div>
+              <div className="soft-skills">SQL & NoSQL</div>
+            </div>
+            {/* </div> */}
+            {/* {icons.map((icon) => {
               return (
                 <div>
                   <h4>{icon.title}</h4>
                 </div>
               );
-            })}
+            })} */}
           </div>
+          <SmallSpacer />
           <div className="grid-list">
             <h3>Skills</h3>
             <div>
@@ -348,12 +548,12 @@ export const Resume = (props) => {
             <div>
               <div className="soft-skills">Programming</div>
             </div>
-            <div>
+            {/* <div>
               <div className="soft-skills">MySQL Workbench</div>
-            </div>
-            <div>
+            </div> */}
+            {/* <div>
               <div className="soft-skills">NoSQL</div>
-            </div>
+            </div> */}
             <div>
               <div className="soft-skills">Airtable</div>
             </div>
@@ -394,32 +594,32 @@ export const Resume = (props) => {
               <div className="soft-skills">Automation</div>
             </div>
             <div>
-              <div className="soft-skills">Google Suite</div>
+              <div className="soft-skills">GSuite</div>
             </div>
-            <div>
+            {/* <div>
               <div className="soft-skills">SQL</div>
-            </div>
+            </div> */}
             <div>
               <div className="soft-skills">Web Applications</div>
             </div>
             <div>
               <div className="soft-skills">Visual Studio</div>
             </div>
-            <div>
+            {/* <div>
               <div className="soft-skills">Cloud Firestore</div>
             </div>
             <div>
               <div className="soft-skills">Vuetify</div>
-            </div>
+            </div> */}
             <div>
               <div className="soft-skills">Debt Collection</div>
             </div>
             <div>
               <div className="soft-skills">Software Development</div>
             </div>
-            <div>
+            {/* <div>
               <div className="soft-skills">MongoDB</div>
-            </div>
+            </div> */}
             <div>
               <div className="soft-skills">Executive Management</div>
             </div>
@@ -484,6 +684,7 @@ export const Resume = (props) => {
                 </cite>
               </p>
             </blockquote>
+            <br />
           </div>
         </section>
         <br />

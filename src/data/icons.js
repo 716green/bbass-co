@@ -169,7 +169,7 @@ export const icons = [
     title: 'GCP',
     name: 'googlecloud',
     iconClass: 'devicon-googlecloud-plain-wordmark colored',
-    category: 'willing',
+    category: 'able',
   },
 ];
 
