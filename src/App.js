@@ -9,7 +9,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link,
+  // Link,
   // useParams,
 } from 'react-router-dom';
 
@@ -40,13 +40,13 @@ function App() {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-  const technologyRef = useRef(null);
+  // const technologyRef = useRef(null);
   // const secondaryRef = useRef(null);
   // const otherRef = useRef(null);
   const resumeRef = useRef(null);
   const portfolioRef = useRef(null);
   const portfolioScrollHandler = () => {
-    console.log(technologyRef);
+    console.log(portfolioRef);
     portfolioRef.current.scrollIntoView();
   };
   // const technologiesScrollHandler = () => {
@@ -70,13 +70,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route
-            path="/resume"
-            children={
-              <Resume>
-                <Link to="/">PORTFOLIO</Link>
-              </Resume>
-            }>
+          <Route path="/resume" children={<Resume />}>
             {/* <Resume /> */}
           </Route>
         </Switch>

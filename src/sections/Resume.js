@@ -571,16 +571,13 @@ export const Resume = (props) => {
             <div className="soft-skills">Automation</div>
           </div>
           <div>
-            <div className="soft-skills">GSuite</div>
-          </div>
-          <div>
             <div className="soft-skills">Web Applications</div>
           </div>
           <div>
             <div className="soft-skills">Visual Studio</div>
           </div>
           <div>
-            <div className="soft-skills">Debt Collection</div>
+            <div className="soft-skills">Debt Consulting</div>
           </div>
           <div>
             <div className="soft-skills">Software Development</div>
@@ -592,10 +589,7 @@ export const Resume = (props) => {
             <div className="soft-skills">Version Control</div>
           </div>
           <div>
-            <div className="soft-skills">Database Administration</div>
-          </div>
-          <div>
-            <div className="soft-skills">Database Management System (DBMS)</div>
+            <div className="soft-skills">Database Management</div>
           </div>
           <div>
             <div className="soft-skills">Corporate Development</div>
@@ -608,9 +602,6 @@ export const Resume = (props) => {
           </div>
           <div>
             <div className="soft-skills">Database Design</div>
-          </div>
-          <div>
-            <div className="soft-skills">Relational Databases</div>
           </div>
         </section>
         <section id="languages">
