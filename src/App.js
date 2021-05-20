@@ -237,6 +237,19 @@ function App() {
                       <li className="portfolio-li">
                         <a
                           className="port-link"
+                          href="https://databass-tasks.web.app"
+                          target="_blank"
+                          rel="noreferrer">
+                          Personal Task Management
+                        </a>
+                        <div className="summary">
+                          A GitHub/Firebase Personal Task Management App built
+                          with Vue 3. Single click OAuth2 Sign Up/Sign In.
+                        </div>
+                      </li>
+                      <li className="portfolio-li">
+                        <a
+                          className="port-link"
                           href="https://www.youtube.com/watch?v=leN03eAjtfk&list=PL-JFZnRQGwR1PEuZ0k3qd27rlRMNQAwuU"
                           target="_blank"
                           rel="noreferrer">
